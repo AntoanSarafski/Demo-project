@@ -22,6 +22,11 @@ body{
     border-bottom: 1px solid #7e8bb6;
 }
 
+.header .navigation{
+    margin-left: auto;
+    margin-right: 24px;
+}
+
 .header .nav-list{
     display: flex;
     gap: 12px;
