@@ -20,6 +20,8 @@ body{
     align-items: center;
     gap: 12px;
     border-bottom: 1px solid #7e8bb6;
+    position: sticky;
+    top: 0px;
 }
 
 .header .navigation{
