@@ -100,3 +100,50 @@ p{
     align-items: center;
     gap: 8px;
 }
+
+/* How does it works? SECTION */
+
+#how {
+    padding: 70px 64px;
+}
+
+#how .section-subtitle{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#how .section-title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+#how .row{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#how .row:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+#how .row:not(last-child){
+margin-bottom: 48px;
+}
+
+#how .row-img{
+    width: 60%;
+}
+
+#how .row .title{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+#how .row .description{
+    font-size: 14px;
+}
