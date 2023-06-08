@@ -148,7 +148,7 @@ margin-bottom: 48px;
     font-size: 14px;
 }
 
-@media screen (min-width:200px) {
+@media (min-width:1000px) {
     header{
         background-color: #fff;
     }
