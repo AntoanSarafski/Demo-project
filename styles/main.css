@@ -60,6 +60,20 @@ p{
     background-color: #0059f7;
 }
 
+/* Global styles */
+
+.section-subtitle{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
 /* Hero section */
 
 #hero{
@@ -107,17 +121,7 @@ p{
     padding: 70px 64px;
 }
 
-#how .section-subtitle{
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 8px;
-}
 
-#how .section-title{
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 48px;
-}
 
 #how .row{
     display: flex;
