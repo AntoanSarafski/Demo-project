@@ -163,4 +163,48 @@ margin-bottom: 48px;
     #hero .welcome > div{
         width: 60%;
     }
+
+    /* How section  */
+
+    #how .row{
+        gap: 18px;
+    }
+    
+    #how .row:not(last-child){
+    margin-bottom: 36px;
+    }
+    
+    #how .row-img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    /* Header section */
+    .header .navigation{
+        display: none;
+    }
+    .header .btn{
+        margin-left: auto;
+    }
+
+    /* Hero section */
+    #hero .welcome > div{
+        width: 80%;
+    }
+
+    /* How section */
+
+    #how .row{
+        flex-direction: column;
+    }
+
+    #how .row-img{
+        width: 80%;
+    }
+
+    #how .row:nth-child(even){
+        flex-direction: column;
+    }
 }
