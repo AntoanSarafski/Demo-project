@@ -148,8 +148,19 @@ margin-bottom: 48px;
     font-size: 14px;
 }
 
-@media (min-width:1000px) {
-    header{
-        background-color: #fff;
+@media screen and (max-width:767px) {
+    
+    #hero .welcome{
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+    
+    #hero .welcome .title{
+        width: 100%;
+    }
+
+    #hero .welcome > div{
+        width: 60%;
     }
 }
