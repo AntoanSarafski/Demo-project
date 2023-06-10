@@ -7,16 +7,17 @@
 
 */
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #070e27;
     color: #fff;
 }
 
-p{
+p {
     color: #7e8bb6;
 }
-.header{
+
+.header {
     padding: 16px 64px;
     display: flex;
     align-items: center;
@@ -27,26 +28,27 @@ p{
     background-color: #070e27;
 }
 
-.header .navigation{
+.header .navigation {
     margin-left: auto;
     margin-right: 24px;
 }
 
-.header .nav-list{
+.header .nav-list {
     display: flex;
     gap: 12px;
-    
+
 }
 
-.header .nav-list a{
+.header .nav-list a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
 /* Buttons section */
 
-.btn{
+.btn {
     border: none;
     border-radius: 4px;
     background-color: #162044;
@@ -55,19 +57,19 @@ p{
     cursor: pointer;
 }
 
-.btn.btn-primary{
+.btn.btn-primary {
     background-color: #0059f7;
 }
 
 /* Global styles */
 
-.section-subtitle{
+.section-subtitle {
     text-align: center;
     font-size: 14px;
     margin-bottom: 8px;
 }
 
-.section-title{
+.section-title {
     text-align: center;
     font-size: 32px;
     margin-bottom: 48px;
@@ -75,11 +77,11 @@ p{
 
 /* Hero section */
 
-#hero{
+#hero {
     padding: 70px 64px;
 }
 
-#hero .welcome{
+#hero .welcome {
     max-width: 900px;
     margin: 0 auto 48px auto;
     display: flex;
@@ -88,24 +90,24 @@ p{
     margin-bottom: 48px;
 }
 
-#hero .welcome > *{
+#hero .welcome>* {
     width: 45%;
 }
 
-#hero .welcome .title{
+#hero .welcome .title {
     font-size: 48px;
     line-height: 1.1;
 }
 
-#hero .welcome .info{
+#hero .welcome .info {
     margin-bottom: 12px;
 }
 
-#hero .hero-img{
+#hero .hero-img {
     margin: 0 auto 48px auto;
 }
 
-#hero .partners{
+#hero .partners {
     max-width: 900px;
     margin: 0 auto;
     display: flex;
@@ -122,7 +124,7 @@ p{
 
 
 
-#how .row{
+#how .row {
     display: flex;
     align-items: center;
     gap: 32px;
@@ -130,104 +132,105 @@ p{
     margin: 0 auto;
 }
 
-#how .row:nth-child(even){
+#how .row:nth-child(even) {
     flex-direction: row-reverse;
 }
 
-#how .row:not(last-child){
-margin-bottom: 48px;
+#how .row:not(last-child) {
+    margin-bottom: 48px;
 }
 
-#how .row-img{
+#how .row-img {
     width: 60%;
 }
 
-#how .row .title{
+#how .row .title {
     font-size: 24px;
     margin-bottom: 12px;
 }
 
-#how .row .description{
+#how .row .description {
     font-size: 14px;
 }
 
 @media screen and (max-width:767px) {
-    
-    #hero .welcome{
+
+    #hero .welcome {
         flex-direction: column;
         gap: 24px;
         text-align: center;
     }
-    
-    #hero .welcome .title{
+
+    #hero .welcome .title {
         width: 100%;
     }
 
-    #hero .welcome > div{
+    #hero .welcome>div {
         width: 60%;
     }
 
     /* How section  */
 
-    #how .row{
+    #how .row {
         gap: 18px;
     }
-    
-    #how .row:not(last-child){
-    margin-bottom: 36px;
+
+    #how .row:not(last-child) {
+        margin-bottom: 36px;
     }
-    
-    #how .row-img{
+
+    #how .row-img {
         width: 50%;
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (min-width:360px) {
 
     /* Header section */
-    .header .navigation{
+    .header .navigation {
         display: none;
     }
-    .header .btn{
+
+    .header .btn {
         margin-left: auto;
     }
 
     /* Hero section */
-    #hero .welcome > div{
+    #hero .welcome>div {
         width: 80%;
     }
 
     /* How section */
 
-    #how .row{
+    #how .row {
         flex-direction: column;
     }
 
-    #how .row-img{
+    #how .row-img {
         width: 80%;
     }
 
-    #how .row:nth-child(even){
+    #how .row:nth-child(even) {
         flex-direction: column;
     }
 
     /* PRICING - MOBILE FIRST ! */
 
-    #pricing{
+    #pricing {
         padding: 70px 64px;
     }
 
-    #pricing .plans .plan{
+    #pricing .plans .plan {
         padding: 12px 18px;
         border-radius: 6px;
         background-color: #162044;
     }
 
-    #pricing .plans .plan:not(:last-child){
+    #pricing .plans .plan:not(:last-child) {
         margin-bottom: 24px;
     }
 
-    #pricing .plans .plan .title{
+    #pricing .plans .plan .title {
         font-size: 18px;
         font-weight: normal;
         color: #7e8bb6;
@@ -235,23 +238,48 @@ margin-bottom: 48px;
         border-bottom: 1px solid #7e8bb6;
         margin-bottom: 36px;
     }
-    #pricing .plans .plan .title .price{
+
+    #pricing .plans .plan .title .price {
         display: block;
         font-size: 28px;
         font-weight: bold;
         color: #fff;
     }
 
-    #pricing .plans .plan .title .price .dollar-sign{
+    #pricing .plans .plan .title .price .dollar-sign {
         color: #7e8bb6;
     }
 
-    #pricing .plans .plan .features{
+    #pricing .plans .plan .features {
         color: #7e8bb6;
         margin: 0px 12px 36px 12px;
     }
 
-    #pricing .plans .plan .features .feat:not(:last-child){
+    #pricing .plans .plan .features .feat:not(:last-child) {
         margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    #pricing .plans {
+        max-width: 900px;
+        margin: 0 auto 48px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    #pricing .plans .plan:not(:last-child) {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #pricing .plans {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #pricing .plans .plan-promo{
+        margin-bottom: 36px;
     }
 }
