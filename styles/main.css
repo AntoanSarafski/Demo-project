@@ -277,9 +277,11 @@ p {
 @media screen and (min-width:1024px) {
     #pricing .plans {
         grid-template-columns: repeat(3, 1fr);
+        align-items: end;
+        
     }
 
-    #pricing .plans .plan-promo{
+    #pricing .plans .plan.promo{
         margin-bottom: 36px;
     }
 }
